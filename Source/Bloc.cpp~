@@ -1,0 +1,24 @@
+#include "Jeu.hpp"
+using namespace std;
+
+Bloc::Bloc(short inclinaison){
+  masqueCol=new lc::Polygone;
+  Entite::initialiserEntite(inclinaison);
+
+  masqueCol->setRotation( getAngleCentre() );//modifier rotation masque
+  active=false;
+  
+  
+}
+
+void Bloc::initialiser(){
+  
+}
+
+void Bloc::gestionBot(){
+  
+}
+
+Bloc::~Bloc(){
+  
+}

@@ -1,0 +1,25 @@
+#include "Jeu.hpp"
+
+using namespace std;
+
+Asteroide::Asteroide(short inclinaison){
+  masqueCol=new lc::Polygone;
+  Entite::initialiserEntite(inclinaison);
+
+  masqueCol->setRotation( getAngleCentre() );//modifier rotation masque
+  active=false;
+  
+  
+}
+
+void Asteroide::initialiser(){
+  
+}
+
+void Asteroide::gestionBot(){
+  
+}
+
+Asteroide::~Asteroide(){
+  
+} 

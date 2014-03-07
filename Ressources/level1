@@ -1,0 +1,12 @@
+8 1 64 2 150 135 4 10 150 10 1 10 200 110 16 4 200 260 64 20 20 135 64 50 150 135 64 30 150 225
+END
+
+
+2 premier nombres:: (1) le nombre de vaisseaux (2) le type de vaisseaux
+4 nombres par vaisseau 
+(1) le cote de l'ecran ou le vaisseau est popé
+16==SUD 1==NORD 4==OUEST 64==EST
+
+(2) la frame ou le vaisseau va popé
+(3) l'endroit sur le coté select en (1) ou le vaisseau va popé
+(4) angle
